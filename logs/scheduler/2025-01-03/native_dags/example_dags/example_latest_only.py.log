@@ -1,0 +1,25 @@
+[2025-01-03 19:59:27,471] {processor.py:153} INFO - Started process (PID=18608) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 19:59:27,472] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-03 19:59:27,472] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,472] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 19:59:27,476] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 19:59:27,538] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,538] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2025-01-03 19:59:27,549] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,549] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2025-01-03 19:59:27,559] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,558] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2025-01-03 19:59:27,559] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,559] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 19:59:27,566] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,566] {dag.py:2398} INFO - Creating ORM DAG for latest_only
+[2025-01-03 19:59:27,573] {logging_mixin.py:115} INFO - [2025-01-03 19:59:27,573] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2025-01-03T18:59:27.573562+00:00, run_after=2025-01-03T22:59:27.573562+00:00
+[2025-01-03 19:59:27,592] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.124 seconds
+[2025-01-03 20:00:13,767] {processor.py:153} INFO - Started process (PID=19264) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:13,770] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-03 20:00:13,771] {logging_mixin.py:115} INFO - [2025-01-03 20:00:13,771] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:13,789] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:13,838] {logging_mixin.py:115} INFO - [2025-01-03 20:00:13,838] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:00:13,880] {logging_mixin.py:115} INFO - [2025-01-03 20:00:13,880] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2025-01-03T19:00:13.879803+00:00, run_after=2025-01-03T23:00:13.879803+00:00
+[2025-01-03 20:00:13,901] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.161 seconds
+[2025-01-03 20:00:47,873] {processor.py:153} INFO - Started process (PID=19822) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:47,874] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-03 20:00:47,875] {logging_mixin.py:115} INFO - [2025-01-03 20:00:47,875] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:47,881] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-03 20:00:47,899] {logging_mixin.py:115} INFO - [2025-01-03 20:00:47,898] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:00:47,922] {logging_mixin.py:115} INFO - [2025-01-03 20:00:47,922] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2025-01-03T19:00:47.921703+00:00, run_after=2025-01-03T23:00:47.921703+00:00
+[2025-01-03 20:00:47,936] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds

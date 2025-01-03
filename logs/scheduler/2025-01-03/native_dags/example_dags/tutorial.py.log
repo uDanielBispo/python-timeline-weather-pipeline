@@ -1,0 +1,32 @@
+[2025-01-03 19:59:10,221] {processor.py:153} INFO - Started process (PID=18446) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:10,222] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-03 19:59:10,222] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:10,227] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:10,280] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,280] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-01-03 19:59:10,293] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,293] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial
+[2025-01-03 19:59:10,300] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,300] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-01-03 19:59:10,301] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,300] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 19:59:10,307] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,307] {dag.py:2398} INFO - Creating ORM DAG for tutorial
+[2025-01-03 19:59:10,313] {logging_mixin.py:115} INFO - [2025-01-03 19:59:10,313] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T22:59:10.313043+00:00, run_after=2025-01-03T22:59:10.313043+00:00
+[2025-01-03 19:59:10,327] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.109 seconds
+[2025-01-03 19:59:58,084] {processor.py:153} INFO - Started process (PID=18967) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:58,085] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-03 19:59:58,086] {logging_mixin.py:115} INFO - [2025-01-03 19:59:58,086] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:58,091] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 19:59:58,108] {logging_mixin.py:115} INFO - [2025-01-03 19:59:58,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 19:59:58,129] {logging_mixin.py:115} INFO - [2025-01-03 19:59:58,129] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T22:59:58.129278+00:00, run_after=2025-01-03T22:59:58.129278+00:00
+[2025-01-03 19:59:58,145] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2025-01-03 20:00:31,053] {processor.py:153} INFO - Started process (PID=19628) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:00:31,054] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-03 20:00:31,054] {logging_mixin.py:115} INFO - [2025-01-03 20:00:31,054] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:00:31,086] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:00:31,174] {logging_mixin.py:115} INFO - [2025-01-03 20:00:31,174] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:00:31,251] {logging_mixin.py:115} INFO - [2025-01-03 20:00:31,251] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T23:00:31.249845+00:00, run_after=2025-01-03T23:00:31.249845+00:00
+[2025-01-03 20:00:31,278] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.232 seconds
+[2025-01-03 20:01:05,682] {processor.py:153} INFO - Started process (PID=19920) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:05,683] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-03 20:01:05,684] {logging_mixin.py:115} INFO - [2025-01-03 20:01:05,684] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:05,691] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:05,712] {logging_mixin.py:115} INFO - [2025-01-03 20:01:05,712] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:05,738] {logging_mixin.py:115} INFO - [2025-01-03 20:01:05,738] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T23:01:05.737937+00:00, run_after=2025-01-03T23:01:05.737937+00:00
+[2025-01-03 20:01:05,756] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds

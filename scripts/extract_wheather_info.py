@@ -18,7 +18,6 @@ city = 'Boston'
 
 URL = f'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}/{date_start}/{date_end}?unitGroup=metric&include=days&key={key}&contentType=csv'
 
-
 data = pd.read_csv(URL)
 print(data.head())
 
