@@ -37,3 +37,10 @@
 [2025-01-03 20:01:22,125] {logging_mixin.py:115} INFO - [2025-01-03 20:01:22,125] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:01:22,143] {logging_mixin.py:115} INFO - [2025-01-03 20:01:22,143] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2025-01-02T23:01:22.143146+00:00, run_after=2025-01-03T23:01:22.143146+00:00
 [2025-01-03 20:01:22,156] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2025-01-03 20:01:55,326] {processor.py:153} INFO - Started process (PID=20340) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-01-03 20:01:55,327] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-01-03 20:01:55,328] {logging_mixin.py:115} INFO - [2025-01-03 20:01:55,327] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-01-03 20:01:55,333] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-01-03 20:01:55,346] {logging_mixin.py:115} INFO - [2025-01-03 20:01:55,345] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:55,360] {logging_mixin.py:115} INFO - [2025-01-03 20:01:55,360] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2025-01-02T23:01:55.360366+00:00, run_after=2025-01-03T23:01:55.360366+00:00
+[2025-01-03 20:01:55,371] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds

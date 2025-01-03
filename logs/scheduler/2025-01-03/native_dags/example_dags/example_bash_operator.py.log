@@ -23,3 +23,10 @@
 [2025-01-03 20:00:54,183] {logging_mixin.py:115} INFO - [2025-01-03 20:00:54,183] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:00:54,203] {logging_mixin.py:115} INFO - [2025-01-03 20:00:54,203] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2025-01-02T00:00:00+00:00, run_after=2025-01-03T00:00:00+00:00
 [2025-01-03 20:00:54,218] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.066 seconds
+[2025-01-03 20:01:28,976] {processor.py:153} INFO - Started process (PID=20070) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03 20:01:28,977] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-01-03 20:01:28,978] {logging_mixin.py:115} INFO - [2025-01-03 20:01:28,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03 20:01:28,994] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03 20:01:29,165] {logging_mixin.py:115} INFO - [2025-01-03 20:01:29,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:29,276] {logging_mixin.py:115} INFO - [2025-01-03 20:01:29,276] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2025-01-02T00:00:00+00:00, run_after=2025-01-03T00:00:00+00:00
+[2025-01-03 20:01:29,310] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.336 seconds

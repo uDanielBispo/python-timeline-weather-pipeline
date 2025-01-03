@@ -38,3 +38,11 @@
 [2025-01-03 20:01:06,857] {logging_mixin.py:115} INFO - [2025-01-03 20:01:06,857] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2025-01-03 20:01:06,857] {logging_mixin.py:115} INFO - [2025-01-03 20:01:06,857] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2025-01-03 20:01:06,871] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.061 seconds
+[2025-01-03 20:01:40,940] {processor.py:153} INFO - Started process (PID=20239) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-03 20:01:40,944] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-03 20:01:40,944] {logging_mixin.py:115} INFO - [2025-01-03 20:01:40,944] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-03 20:01:41,007] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-03 20:01:41,180] {logging_mixin.py:115} INFO - [2025-01-03 20:01:41,179] {dag.py:2379} INFO - Sync 2 DAGs
+[2025-01-03 20:01:41,258] {logging_mixin.py:115} INFO - [2025-01-03 20:01:41,258] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-03 20:01:41,259] {logging_mixin.py:115} INFO - [2025-01-03 20:01:41,259] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-03 20:01:41,291] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.360 seconds

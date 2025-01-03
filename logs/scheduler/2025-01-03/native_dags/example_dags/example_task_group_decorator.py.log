@@ -30,3 +30,10 @@
 [2025-01-03 20:01:01,598] {logging_mixin.py:115} INFO - [2025-01-03 20:01:01,598] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:01:01,608] {logging_mixin.py:115} INFO - [2025-01-03 20:01:01,608] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2025-01-02T23:01:01.608553+00:00, run_after=2025-01-03T23:01:01.608553+00:00
 [2025-01-03 20:01:01,620] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.078 seconds
+[2025-01-03 20:01:35,568] {processor.py:153} INFO - Started process (PID=20127) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-03 20:01:35,569] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-01-03 20:01:35,570] {logging_mixin.py:115} INFO - [2025-01-03 20:01:35,569] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-03 20:01:35,585] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-03 20:01:35,598] {logging_mixin.py:115} INFO - [2025-01-03 20:01:35,598] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:35,611] {logging_mixin.py:115} INFO - [2025-01-03 20:01:35,611] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2025-01-02T23:01:35.611384+00:00, run_after=2025-01-03T23:01:35.611384+00:00
+[2025-01-03 20:01:35,624] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.058 seconds

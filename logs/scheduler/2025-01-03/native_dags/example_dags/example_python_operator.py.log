@@ -34,3 +34,11 @@
 [2025-01-03 20:01:15,852] {logging_mixin.py:115} INFO - [2025-01-03 20:01:15,851] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:01:15,866] {logging_mixin.py:115} INFO - [2025-01-03 20:01:15,866] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2025-01-03 20:01:15,877] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.055 seconds
+[2025-01-03 20:01:50,181] {processor.py:153} INFO - Started process (PID=20307) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-01-03 20:01:50,182] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-01-03 20:01:50,183] {logging_mixin.py:115} INFO - [2025-01-03 20:01:50,183] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-01-03 20:01:50,195] {logging_mixin.py:115} INFO - [2025-01-03 20:01:50,195] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-01-03 20:01:50,196] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-01-03 20:01:50,208] {logging_mixin.py:115} INFO - [2025-01-03 20:01:50,208] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:50,221] {logging_mixin.py:115} INFO - [2025-01-03 20:01:50,221] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-01-03 20:01:50,233] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.055 seconds

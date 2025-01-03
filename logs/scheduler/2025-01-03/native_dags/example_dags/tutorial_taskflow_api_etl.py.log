@@ -30,3 +30,10 @@
 [2025-01-03 20:01:03,446] {logging_mixin.py:115} INFO - [2025-01-03 20:01:03,446] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:01:03,457] {logging_mixin.py:115} INFO - [2025-01-03 20:01:03,457] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
 [2025-01-03 20:01:03,469] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.073 seconds
+[2025-01-03 20:01:37,677] {processor.py:153} INFO - Started process (PID=20149) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2025-01-03 20:01:37,678] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2025-01-03 20:01:37,678] {logging_mixin.py:115} INFO - [2025-01-03 20:01:37,678] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2025-01-03 20:01:37,690] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2025-01-03 20:01:37,716] {logging_mixin.py:115} INFO - [2025-01-03 20:01:37,716] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:37,731] {logging_mixin.py:115} INFO - [2025-01-03 20:01:37,730] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2025-01-03 20:01:37,745] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.071 seconds

@@ -30,3 +30,10 @@
 [2025-01-03 20:01:05,712] {logging_mixin.py:115} INFO - [2025-01-03 20:01:05,712] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-03 20:01:05,738] {logging_mixin.py:115} INFO - [2025-01-03 20:01:05,738] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T23:01:05.737937+00:00, run_after=2025-01-03T23:01:05.737937+00:00
 [2025-01-03 20:01:05,756] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2025-01-03 20:01:39,563] {processor.py:153} INFO - Started process (PID=20227) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:39,564] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-03 20:01:39,564] {logging_mixin.py:115} INFO - [2025-01-03 20:01:39,564] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:39,571] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-03 20:01:39,676] {logging_mixin.py:115} INFO - [2025-01-03 20:01:39,675] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-03 20:01:39,737] {logging_mixin.py:115} INFO - [2025-01-03 20:01:39,737] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2025-01-02T23:01:39.736221+00:00, run_after=2025-01-03T23:01:39.736221+00:00
+[2025-01-03 20:01:39,764] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.204 seconds
