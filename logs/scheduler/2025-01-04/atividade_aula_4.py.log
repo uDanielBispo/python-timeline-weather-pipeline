@@ -1,0 +1,556 @@
+[2025-01-04 12:45:55,675] {processor.py:153} INFO - Started process (PID=5699) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:45:55,679] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:45:55,679] {logging_mixin.py:115} INFO - [2025-01-04 12:45:55,679] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:45:55,686] {logging_mixin.py:115} INFO - [2025-01-04 12:45:55,683] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 14
+    )
+    ^
+SyntaxError: invalid syntax
+[2025-01-04 12:45:55,687] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:45:55,728] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.066 seconds
+[2025-01-04 12:46:34,507] {processor.py:153} INFO - Started process (PID=5906) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:46:34,511] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:46:34,511] {logging_mixin.py:115} INFO - [2025-01-04 12:46:34,511] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:46:34,542] {logging_mixin.py:115} INFO - [2025-01-04 12:46:34,530] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:46:34,542] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:46:34,571] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.068 seconds
+[2025-01-04 12:47:07,406] {processor.py:153} INFO - Started process (PID=6091) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:07,408] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:47:07,410] {logging_mixin.py:115} INFO - [2025-01-04 12:47:07,410] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:07,434] {logging_mixin.py:115} INFO - [2025-01-04 12:47:07,431] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:47:07,434] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:07,470] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.068 seconds
+[2025-01-04 12:47:42,274] {processor.py:153} INFO - Started process (PID=6292) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:42,275] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:47:42,278] {logging_mixin.py:115} INFO - [2025-01-04 12:47:42,278] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:42,299] {logging_mixin.py:115} INFO - [2025-01-04 12:47:42,298] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:47:42,300] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:47:42,338] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.071 seconds
+[2025-01-04 12:48:21,702] {processor.py:153} INFO - Started process (PID=6528) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:21,706] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:48:21,707] {logging_mixin.py:115} INFO - [2025-01-04 12:48:21,707] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:21,734] {logging_mixin.py:115} INFO - [2025-01-04 12:48:21,730] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:48:21,734] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:21,782] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.087 seconds
+[2025-01-04 12:48:52,498] {processor.py:153} INFO - Started process (PID=6684) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:52,506] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:48:52,507] {logging_mixin.py:115} INFO - [2025-01-04 12:48:52,507] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:52,543] {logging_mixin.py:115} INFO - [2025-01-04 12:48:52,538] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:48:52,546] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:48:52,590] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.100 seconds
+[2025-01-04 12:49:23,398] {processor.py:153} INFO - Started process (PID=6861) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:49:23,402] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:49:23,402] {logging_mixin.py:115} INFO - [2025-01-04 12:49:23,402] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:49:23,423] {logging_mixin.py:115} INFO - [2025-01-04 12:49:23,422] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:49:23,426] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:49:23,475] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.085 seconds
+[2025-01-04 12:50:08,078] {processor.py:153} INFO - Started process (PID=7207) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:08,090] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:50:08,091] {logging_mixin.py:115} INFO - [2025-01-04 12:50:08,091] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:08,146] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!
+[2025-01-04 12:50:08,155] {logging_mixin.py:115} INFO - [2025-01-04 12:50:08,150] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:50:08,158] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:08,222] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.160 seconds
+[2025-01-04 12:50:46,302] {processor.py:153} INFO - Started process (PID=7403) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:46,314] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:50:46,318] {logging_mixin.py:115} INFO - [2025-01-04 12:50:46,318] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:46,418] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!
+[2025-01-04 12:50:46,458] {logging_mixin.py:115} INFO - [2025-01-04 12:50:46,446] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 11, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:50:46,462] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:50:46,826] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.564 seconds
+[2025-01-04 12:52:02,978] {processor.py:153} INFO - Started process (PID=7823) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:52:02,994] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 12:52:02,998] {logging_mixin.py:115} INFO - [2025-01-04 12:52:02,998] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:52:03,094] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!
+[2025-01-04 12:52:03,118] {logging_mixin.py:115} INFO - [2025-01-04 12:52:03,102] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 13, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 12:52:03,118] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 12:52:03,346] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.400 seconds
+[2025-01-04 13:01:58,020] {processor.py:153} INFO - Started process (PID=3203) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:01:58,023] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:01:58,027] {logging_mixin.py:115} INFO - [2025-01-04 13:01:58,026] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:01:58,078] {logging_mixin.py:115} INFO - Boas-vindas ao Airflow!
+[2025-01-04 13:01:58,091] {logging_mixin.py:115} INFO - [2025-01-04 13:01:58,082] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 13, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 13:01:58,092] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:01:58,153] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.151 seconds
+[2025-01-04 13:02:34,710] {processor.py:153} INFO - Started process (PID=3683) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:02:34,711] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:02:34,711] {logging_mixin.py:115} INFO - [2025-01-04 13:02:34,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:02:34,719] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!!
+[2025-01-04 13:02:34,722] {logging_mixin.py:115} INFO - [2025-01-04 13:02:34,721] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 13, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 13:02:34,722] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:02:34,740] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.034 seconds
+[2025-01-04 13:03:08,600] {processor.py:153} INFO - Started process (PID=3895) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:08,602] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:03:08,602] {logging_mixin.py:115} INFO - [2025-01-04 13:03:08,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:08,611] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!
+[2025-01-04 13:03:08,614] {logging_mixin.py:115} INFO - [2025-01-04 13:03:08,612] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 15, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 13:03:08,614] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:08,637] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.040 seconds
+[2025-01-04 13:03:40,133] {processor.py:153} INFO - Started process (PID=4075) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:40,134] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:03:40,134] {logging_mixin.py:115} INFO - [2025-01-04 13:03:40,134] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:40,140] {logging_mixin.py:115} INFO - Hello World! Welcome to airflow!
+[2025-01-04 13:03:40,142] {logging_mixin.py:115} INFO - [2025-01-04 13:03:40,141] {dagbag.py:320} ERROR - Failed to import: /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py", line 15, in <module>
+    airflow_hello_world = PythonOperator(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2025-01-04 13:03:40,142] {processor.py:653} WARNING - No viable dags retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:03:40,162] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.032 seconds
+[2025-01-04 13:04:10,635] {processor.py:153} INFO - Started process (PID=4283) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:10,637] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:04:10,638] {logging_mixin.py:115} INFO - [2025-01-04 13:04:10,638] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:10,650] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:10,694] {logging_mixin.py:115} INFO - [2025-01-04 13:04:10,694] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:04:10,715] {logging_mixin.py:115} INFO - [2025-01-04 13:04:10,715] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:04:10,743] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.111 seconds
+[2025-01-04 13:04:50,582] {processor.py:153} INFO - Started process (PID=4850) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:50,586] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:04:50,587] {logging_mixin.py:115} INFO - [2025-01-04 13:04:50,587] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:50,610] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:04:50,674] {logging_mixin.py:115} INFO - [2025-01-04 13:04:50,674] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:04:50,770] {logging_mixin.py:115} INFO - [2025-01-04 13:04:50,769] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:04:50,808] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.233 seconds
+[2025-01-04 13:05:36,279] {processor.py:153} INFO - Started process (PID=5346) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:05:36,280] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:05:36,282] {logging_mixin.py:115} INFO - [2025-01-04 13:05:36,282] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:05:36,298] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:05:36,365] {logging_mixin.py:115} INFO - [2025-01-04 13:05:36,365] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:05:36,386] {logging_mixin.py:115} INFO - [2025-01-04 13:05:36,385] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:05:36,403] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.132 seconds
+[2025-01-04 13:06:19,146] {processor.py:153} INFO - Started process (PID=5854) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:19,147] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:06:19,147] {logging_mixin.py:115} INFO - [2025-01-04 13:06:19,147] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:19,159] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:19,179] {logging_mixin.py:115} INFO - [2025-01-04 13:06:19,179] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:06:19,206] {logging_mixin.py:115} INFO - [2025-01-04 13:06:19,206] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:06:19,230] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.088 seconds
+[2025-01-04 13:06:57,539] {processor.py:153} INFO - Started process (PID=6057) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:57,542] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:06:57,542] {logging_mixin.py:115} INFO - [2025-01-04 13:06:57,542] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:57,554] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:06:57,644] {logging_mixin.py:115} INFO - [2025-01-04 13:06:57,644] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:06:57,665] {logging_mixin.py:115} INFO - [2025-01-04 13:06:57,663] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:06:57,691] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.156 seconds
+[2025-01-04 13:07:27,361] {processor.py:153} INFO - Started process (PID=6359) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:07:27,362] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:07:27,370] {logging_mixin.py:115} INFO - [2025-01-04 13:07:27,370] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:07:27,401] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:07:27,418] {logging_mixin.py:115} INFO - [2025-01-04 13:07:27,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:07:27,462] {logging_mixin.py:115} INFO - [2025-01-04 13:07:27,462] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:07:27,506] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.152 seconds
+[2025-01-04 13:08:12,181] {processor.py:153} INFO - Started process (PID=6863) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:12,183] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:08:12,186] {logging_mixin.py:115} INFO - [2025-01-04 13:08:12,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:12,219] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:12,370] {logging_mixin.py:115} INFO - [2025-01-04 13:08:12,370] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:08:12,421] {logging_mixin.py:115} INFO - [2025-01-04 13:08:12,419] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:08:12,462] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.295 seconds
+[2025-01-04 13:08:57,986] {processor.py:153} INFO - Started process (PID=7364) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:57,990] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:08:57,990] {logging_mixin.py:115} INFO - [2025-01-04 13:08:57,990] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:58,030] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:08:58,083] {logging_mixin.py:115} INFO - [2025-01-04 13:08:58,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:08:58,157] {logging_mixin.py:115} INFO - [2025-01-04 13:08:58,154] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:08:58,211] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.252 seconds
+[2025-01-04 13:51:13,788] {processor.py:153} INFO - Started process (PID=7707) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:13,789] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:51:13,790] {logging_mixin.py:115} INFO - [2025-01-04 13:51:13,790] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:13,810] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:13,877] {logging_mixin.py:115} INFO - [2025-01-04 13:51:13,876] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:51:13,898] {logging_mixin.py:115} INFO - [2025-01-04 13:51:13,898] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:51:13,913] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.128 seconds
+[2025-01-04 13:51:47,979] {processor.py:153} INFO - Started process (PID=8108) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:47,980] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:51:47,981] {logging_mixin.py:115} INFO - [2025-01-04 13:51:47,981] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:47,988] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:51:48,001] {logging_mixin.py:115} INFO - [2025-01-04 13:51:48,001] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:51:48,016] {logging_mixin.py:115} INFO - [2025-01-04 13:51:48,016] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:51:48,028] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.051 seconds
+[2025-01-04 13:52:24,660] {processor.py:153} INFO - Started process (PID=8499) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:24,661] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:52:24,662] {logging_mixin.py:115} INFO - [2025-01-04 13:52:24,662] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:24,672] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:24,711] {logging_mixin.py:115} INFO - [2025-01-04 13:52:24,711] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:52:24,732] {logging_mixin.py:115} INFO - [2025-01-04 13:52:24,732] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:52:24,747] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.093 seconds
+[2025-01-04 13:52:58,585] {processor.py:153} INFO - Started process (PID=8758) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:58,586] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:52:58,586] {logging_mixin.py:115} INFO - [2025-01-04 13:52:58,586] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:58,594] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:52:58,607] {logging_mixin.py:115} INFO - [2025-01-04 13:52:58,607] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:52:58,625] {logging_mixin.py:115} INFO - [2025-01-04 13:52:58,625] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:52:58,637] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.055 seconds
+[2025-01-04 13:53:30,613] {processor.py:153} INFO - Started process (PID=8902) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:53:30,614] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:53:30,614] {logging_mixin.py:115} INFO - [2025-01-04 13:53:30,614] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:53:30,621] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:53:30,662] {logging_mixin.py:115} INFO - [2025-01-04 13:53:30,662] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:53:30,674] {logging_mixin.py:115} INFO - [2025-01-04 13:53:30,674] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:53:30,686] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.077 seconds
+[2025-01-04 13:54:05,201] {processor.py:153} INFO - Started process (PID=9316) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:05,202] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:54:05,203] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,203] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:05,217] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:05,275] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,275] {manager.py:508} INFO - Created Permission View: can read on DAG:atividade_aula_4
+[2025-01-04 13:54:05,284] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,284] {manager.py:508} INFO - Created Permission View: can delete on DAG:atividade_aula_4
+[2025-01-04 13:54:05,293] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,293] {manager.py:508} INFO - Created Permission View: can edit on DAG:atividade_aula_4
+[2025-01-04 13:54:05,293] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,293] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:54:05,300] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,300] {dag.py:2398} INFO - Creating ORM DAG for atividade_aula_4
+[2025-01-04 13:54:05,308] {logging_mixin.py:115} INFO - [2025-01-04 13:54:05,308] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-03T00:00:00+00:00, run_after=2025-01-04T00:00:00+00:00
+[2025-01-04 13:54:05,321] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.122 seconds
+[2025-01-04 13:54:39,359] {processor.py:153} INFO - Started process (PID=9572) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:39,361] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:54:39,362] {logging_mixin.py:115} INFO - [2025-01-04 13:54:39,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:39,371] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:54:39,385] {logging_mixin.py:115} INFO - [2025-01-04 13:54:39,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:54:39,401] {logging_mixin.py:115} INFO - [2025-01-04 13:54:39,401] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-03T00:00:00+00:00, run_after=2025-01-04T00:00:00+00:00
+[2025-01-04 13:54:39,413] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.057 seconds
+[2025-01-04 13:55:13,227] {processor.py:153} INFO - Started process (PID=9884) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:13,229] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:55:13,230] {logging_mixin.py:115} INFO - [2025-01-04 13:55:13,230] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:13,236] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:13,249] {logging_mixin.py:115} INFO - [2025-01-04 13:55:13,249] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:55:13,264] {logging_mixin.py:115} INFO - [2025-01-04 13:55:13,264] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-03T00:00:00+00:00, run_after=2025-01-04T00:00:00+00:00
+[2025-01-04 13:55:13,278] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.053 seconds
+[2025-01-04 13:55:51,150] {processor.py:153} INFO - Started process (PID=10303) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:51,151] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:55:51,153] {logging_mixin.py:115} INFO - [2025-01-04 13:55:51,153] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:51,173] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:55:51,202] {logging_mixin.py:115} INFO - [2025-01-04 13:55:51,202] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:55:51,254] {logging_mixin.py:115} INFO - [2025-01-04 13:55:51,254] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:55:51,285] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.143 seconds
+[2025-01-04 13:56:27,035] {processor.py:153} INFO - Started process (PID=10712) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:56:27,037] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:56:27,038] {logging_mixin.py:115} INFO - [2025-01-04 13:56:27,038] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:56:27,058] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:56:27,090] {logging_mixin.py:115} INFO - [2025-01-04 13:56:27,090] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:56:27,135] {logging_mixin.py:115} INFO - [2025-01-04 13:56:27,135] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:56:27,162] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.133 seconds
+[2025-01-04 13:57:00,082] {processor.py:153} INFO - Started process (PID=11003) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:00,083] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:57:00,085] {logging_mixin.py:115} INFO - [2025-01-04 13:57:00,085] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:00,103] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:00,133] {logging_mixin.py:115} INFO - [2025-01-04 13:57:00,133] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:57:00,168] {logging_mixin.py:115} INFO - [2025-01-04 13:57:00,168] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:57:00,187] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.111 seconds
+[2025-01-04 13:57:35,462] {processor.py:153} INFO - Started process (PID=11214) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:35,465] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:57:35,465] {logging_mixin.py:115} INFO - [2025-01-04 13:57:35,465] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:35,475] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:57:35,502] {logging_mixin.py:115} INFO - [2025-01-04 13:57:35,502] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:57:35,526] {logging_mixin.py:115} INFO - [2025-01-04 13:57:35,526] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:57:35,542] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.084 seconds
+[2025-01-04 13:58:10,509] {processor.py:153} INFO - Started process (PID=11418) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:10,510] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:58:10,510] {logging_mixin.py:115} INFO - [2025-01-04 13:58:10,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:10,522] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:10,542] {logging_mixin.py:115} INFO - [2025-01-04 13:58:10,542] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:58:10,577] {logging_mixin.py:115} INFO - [2025-01-04 13:58:10,577] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:58:10,606] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.105 seconds
+[2025-01-04 13:58:41,918] {processor.py:153} INFO - Started process (PID=11601) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:41,925] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:58:41,925] {logging_mixin.py:115} INFO - [2025-01-04 13:58:41,925] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:41,945] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:58:41,981] {logging_mixin.py:115} INFO - [2025-01-04 13:58:41,981] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:58:42,022] {logging_mixin.py:115} INFO - [2025-01-04 13:58:42,022] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:58:42,042] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.128 seconds
+[2025-01-04 13:59:18,314] {processor.py:153} INFO - Started process (PID=11856) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:18,318] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:59:18,318] {logging_mixin.py:115} INFO - [2025-01-04 13:59:18,318] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:18,333] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:18,357] {logging_mixin.py:115} INFO - [2025-01-04 13:59:18,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:59:18,393] {logging_mixin.py:115} INFO - [2025-01-04 13:59:18,393] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:59:18,409] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.099 seconds
+[2025-01-04 13:59:54,573] {processor.py:153} INFO - Started process (PID=12067) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:54,574] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 13:59:54,574] {logging_mixin.py:115} INFO - [2025-01-04 13:59:54,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:54,589] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 13:59:54,613] {logging_mixin.py:115} INFO - [2025-01-04 13:59:54,613] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 13:59:54,645] {logging_mixin.py:115} INFO - [2025-01-04 13:59:54,645] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 13:59:54,666] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.101 seconds
+[2025-01-04 14:00:30,337] {processor.py:153} INFO - Started process (PID=12269) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:00:30,341] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:00:30,341] {logging_mixin.py:115} INFO - [2025-01-04 14:00:30,341] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:00:30,361] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:00:30,402] {logging_mixin.py:115} INFO - [2025-01-04 14:00:30,402] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:00:30,454] {logging_mixin.py:115} INFO - [2025-01-04 14:00:30,454] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:00:30,490] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.161 seconds
+[2025-01-04 14:02:30,989] {processor.py:153} INFO - Started process (PID=12541) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:02:30,991] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:02:31,006] {logging_mixin.py:115} INFO - [2025-01-04 14:02:31,005] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:02:31,064] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:02:31,133] {logging_mixin.py:115} INFO - [2025-01-04 14:02:31,133] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:02:31,209] {logging_mixin.py:115} INFO - [2025-01-04 14:02:31,209] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:02:31,237] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.264 seconds
+[2025-01-04 14:03:09,544] {processor.py:153} INFO - Started process (PID=13041) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:09,545] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:03:09,546] {logging_mixin.py:115} INFO - [2025-01-04 14:03:09,546] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:09,553] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:09,567] {logging_mixin.py:115} INFO - [2025-01-04 14:03:09,566] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:03:09,583] {logging_mixin.py:115} INFO - [2025-01-04 14:03:09,583] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:03:09,594] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.053 seconds
+[2025-01-04 14:03:41,527] {processor.py:153} INFO - Started process (PID=13214) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:41,528] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:03:41,529] {logging_mixin.py:115} INFO - [2025-01-04 14:03:41,529] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:41,546] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:03:41,578] {logging_mixin.py:115} INFO - [2025-01-04 14:03:41,577] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:03:41,641] {logging_mixin.py:115} INFO - [2025-01-04 14:03:41,641] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:03:41,666] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.144 seconds
+[2025-01-04 14:04:14,486] {processor.py:153} INFO - Started process (PID=13486) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:14,488] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:04:14,488] {logging_mixin.py:115} INFO - [2025-01-04 14:04:14,488] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:14,496] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:14,509] {logging_mixin.py:115} INFO - [2025-01-04 14:04:14,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:04:14,532] {logging_mixin.py:115} INFO - [2025-01-04 14:04:14,532] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:04:14,549] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.064 seconds
+[2025-01-04 14:04:47,169] {processor.py:153} INFO - Started process (PID=13662) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:47,171] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:04:47,171] {logging_mixin.py:115} INFO - [2025-01-04 14:04:47,171] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:47,182] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:04:47,196] {logging_mixin.py:115} INFO - [2025-01-04 14:04:47,196] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:04:47,231] {logging_mixin.py:115} INFO - [2025-01-04 14:04:47,231] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:04:47,257] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.090 seconds
+[2025-01-04 14:05:18,569] {processor.py:153} INFO - Started process (PID=14009) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:18,570] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:05:18,571] {logging_mixin.py:115} INFO - [2025-01-04 14:05:18,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:18,588] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:18,612] {logging_mixin.py:115} INFO - [2025-01-04 14:05:18,612] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:05:18,640] {logging_mixin.py:115} INFO - [2025-01-04 14:05:18,640] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:05:18,674] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.112 seconds
+[2025-01-04 14:05:56,513] {processor.py:153} INFO - Started process (PID=14316) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:56,515] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:05:56,515] {logging_mixin.py:115} INFO - [2025-01-04 14:05:56,515] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:56,524] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:05:56,538] {logging_mixin.py:115} INFO - [2025-01-04 14:05:56,538] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:05:56,557] {logging_mixin.py:115} INFO - [2025-01-04 14:05:56,557] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:05:56,569] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.058 seconds
+[2025-01-04 14:06:31,037] {processor.py:153} INFO - Started process (PID=14595) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:06:31,039] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:06:31,039] {logging_mixin.py:115} INFO - [2025-01-04 14:06:31,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:06:31,048] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:06:31,065] {logging_mixin.py:115} INFO - [2025-01-04 14:06:31,064] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:06:31,085] {logging_mixin.py:115} INFO - [2025-01-04 14:06:31,085] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:06:31,096] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.063 seconds
+[2025-01-04 14:07:05,199] {processor.py:153} INFO - Started process (PID=14798) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:05,200] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:07:05,200] {logging_mixin.py:115} INFO - [2025-01-04 14:07:05,200] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:05,210] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:05,224] {logging_mixin.py:115} INFO - [2025-01-04 14:07:05,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:07:05,244] {logging_mixin.py:115} INFO - [2025-01-04 14:07:05,244] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:07:05,257] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.062 seconds
+[2025-01-04 14:07:38,500] {processor.py:153} INFO - Started process (PID=15013) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:38,501] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:07:38,501] {logging_mixin.py:115} INFO - [2025-01-04 14:07:38,501] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:38,509] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:07:38,525] {logging_mixin.py:115} INFO - [2025-01-04 14:07:38,525] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:07:38,544] {logging_mixin.py:115} INFO - [2025-01-04 14:07:38,544] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:07:38,557] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.061 seconds
+[2025-01-04 14:08:08,774] {processor.py:153} INFO - Started process (PID=15187) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:08,776] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:08:08,776] {logging_mixin.py:115} INFO - [2025-01-04 14:08:08,776] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:08,785] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:08,800] {logging_mixin.py:115} INFO - [2025-01-04 14:08:08,800] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:08:08,822] {logging_mixin.py:115} INFO - [2025-01-04 14:08:08,822] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:08:08,839] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.068 seconds
+[2025-01-04 14:08:40,089] {processor.py:153} INFO - Started process (PID=15374) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:40,091] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:08:40,091] {logging_mixin.py:115} INFO - [2025-01-04 14:08:40,091] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:40,101] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:08:40,117] {logging_mixin.py:115} INFO - [2025-01-04 14:08:40,117] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:08:40,147] {logging_mixin.py:115} INFO - [2025-01-04 14:08:40,147] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:08:40,161] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.074 seconds
+[2025-01-04 14:09:11,723] {processor.py:153} INFO - Started process (PID=15552) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:11,725] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:09:11,727] {logging_mixin.py:115} INFO - [2025-01-04 14:09:11,727] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:11,739] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:11,764] {logging_mixin.py:115} INFO - [2025-01-04 14:09:11,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:09:11,792] {logging_mixin.py:115} INFO - [2025-01-04 14:09:11,792] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:09:11,816] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.097 seconds
+[2025-01-04 14:09:45,488] {processor.py:153} INFO - Started process (PID=15759) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:45,490] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:09:45,491] {logging_mixin.py:115} INFO - [2025-01-04 14:09:45,491] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:45,500] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:09:45,523] {logging_mixin.py:115} INFO - [2025-01-04 14:09:45,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:09:45,548] {logging_mixin.py:115} INFO - [2025-01-04 14:09:45,548] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:09:45,568] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.084 seconds
+[2025-01-04 14:10:19,240] {processor.py:153} INFO - Started process (PID=15944) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:19,244] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:10:19,245] {logging_mixin.py:115} INFO - [2025-01-04 14:10:19,244] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:19,256] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:19,283] {logging_mixin.py:115} INFO - [2025-01-04 14:10:19,283] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:10:19,311] {logging_mixin.py:115} INFO - [2025-01-04 14:10:19,311] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:10:19,330] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.094 seconds
+[2025-01-04 14:10:53,354] {processor.py:153} INFO - Started process (PID=16199) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:53,356] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:10:53,359] {logging_mixin.py:115} INFO - [2025-01-04 14:10:53,359] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:53,372] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:10:53,399] {logging_mixin.py:115} INFO - [2025-01-04 14:10:53,399] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:10:53,427] {logging_mixin.py:115} INFO - [2025-01-04 14:10:53,427] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:10:53,450] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.102 seconds
+[2025-01-04 14:11:29,668] {processor.py:153} INFO - Started process (PID=16410) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:11:29,672] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py for tasks to queue
+[2025-01-04 14:11:29,676] {logging_mixin.py:115} INFO - [2025-01-04 14:11:29,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:11:29,702] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py
+[2025-01-04 14:11:29,730] {logging_mixin.py:115} INFO - [2025-01-04 14:11:29,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-04 14:11:29,772] {logging_mixin.py:115} INFO - [2025-01-04 14:11:29,772] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2025-01-04T00:00:00+00:00, run_after=2025-01-05T00:00:00+00:00
+[2025-01-04 14:11:29,795] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/atividade_aula_4.py took 0.132 seconds

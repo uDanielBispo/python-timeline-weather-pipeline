@@ -1,0 +1,146 @@
+[2025-01-05 10:28:39,922] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:28:39,950] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:28:39,950] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:28:39,950] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2025-01-05 10:28:39,950] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:28:40,022] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-12-23 00:00:00+00:00
+[2025-01-05 10:28:40,042] {standard_task_runner.py:52} INFO - Started process 15109 to run task
+[2025-01-05 10:28:40,063] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data', 'extrai_dados', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/weather_data.py', '--cfg-path', '/tmp/tmpa7qo1g_w', '--error-file', '/tmp/tmpxopeb40a']
+[2025-01-05 10:28:40,066] {standard_task_runner.py:80} INFO - Job 49: Subtask extrai_dados
+[2025-01-05 10:28:40,299] {task_command.py:370} INFO - Running <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [running]> on host daniel-virtual-machine
+[2025-01-05 10:28:40,642] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=weather_data
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-23T00:00:00+00:00
+[2025-01-05 10:28:41,854] {logging_mixin.py:115} INFO -                         name  ...                                           stations
+0  Boston, MA, United States  ...  KOWD,AV085,72509854704,KBED,0518W,KBOS,7250901...
+1  Boston, MA, United States  ...  KOWD,AV085,72509854704,KBED,0518W,KBOS,7250901...
+2  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+3  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+4  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+
+[5 rows x 33 columns]
+[2025-01-05 10:28:41,886] {python.py:173} INFO - Done. Returned value was: None
+[2025-01-05 10:28:41,918] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=weather_data, task_id=extrai_dados, execution_date=20241223T000000, start_date=20250105T132839, end_date=20250105T132841
+[2025-01-05 10:28:41,983] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-01-05 10:28:42,106] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-05 10:33:04,705] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:33:04,712] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:33:04,712] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:33:04,712] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2025-01-05 10:33:04,712] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:33:04,729] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-12-23 00:00:00+00:00
+[2025-01-05 10:33:04,733] {standard_task_runner.py:52} INFO - Started process 16625 to run task
+[2025-01-05 10:33:04,736] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data', 'extrai_dados', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/weather_data.py', '--cfg-path', '/tmp/tmpx3isl2om', '--error-file', '/tmp/tmpf0o3vz73']
+[2025-01-05 10:33:04,737] {standard_task_runner.py:80} INFO - Job 51: Subtask extrai_dados
+[2025-01-05 10:33:04,787] {task_command.py:370} INFO - Running <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [running]> on host daniel-virtual-machine
+[2025-01-05 10:33:04,837] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=weather_data
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-23T00:00:00+00:00
+[2025-01-05 10:33:04,844] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/usr/lib/python3.9/http/client.py", line 1447, in connect
+    super().connect()
+  File "/usr/lib/python3.9/http/client.py", line 946, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.9/socket.py", line 835, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.9/socket.py", line 966, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py", line 34, in extract_data
+    data = pd.read_csv(URL)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/common.py", line 728, in get_handle
+    ioargs = _get_filepath_or_buffer(
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/common.py", line 384, in _get_filepath_or_buffer
+    with urlopen(req_info) as req:
+  File "/home/daniel/Documents/Alura/python_apache_airflow_pipeline/venv/lib/python3.9/site-packages/pandas/io/common.py", line 289, in urlopen
+    return urllib.request.urlopen(*args, **kwargs)
+  File "/usr/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+[2025-01-05 10:33:04,852] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=weather_data, task_id=extrai_dados, execution_date=20241223T000000, start_date=20250105T133304, end_date=20250105T133304
+[2025-01-05 10:33:04,866] {standard_task_runner.py:92} ERROR - Failed to execute job 51 for task extrai_dados (<urlopen error [Errno -3] Temporary failure in name resolution>; 16625)
+[2025-01-05 10:33:04,911] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-01-05 10:33:04,929] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-05 10:57:55,044] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:57:55,056] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2025-01-05 10:57:55,056] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:57:55,056] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2025-01-05 10:57:55,056] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-05 10:57:55,075] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-12-23 00:00:00+00:00
+[2025-01-05 10:57:55,080] {standard_task_runner.py:52} INFO - Started process 4521 to run task
+[2025-01-05 10:57:55,088] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'weather_data', 'extrai_dados', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/weather_data.py', '--cfg-path', '/tmp/tmp0axzyo9l', '--error-file', '/tmp/tmpauxwlaqg']
+[2025-01-05 10:57:55,090] {standard_task_runner.py:80} INFO - Job 61: Subtask extrai_dados
+[2025-01-05 10:57:55,159] {task_command.py:370} INFO - Running <TaskInstance: weather_data.extrai_dados scheduled__2024-12-23T00:00:00+00:00 [running]> on host daniel-virtual-machine
+[2025-01-05 10:57:55,219] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=weather_data
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-23T00:00:00+00:00
+[2025-01-05 10:57:55,222] {logging_mixin.py:115} INFO - https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Boston/2024-12-30/2025-01-06?unitGroup=metric&include=days&key=X4TW9EDJ3EKJML6NRKZE29MKH&contentType=csv
+[2025-01-05 10:57:55,921] {logging_mixin.py:115} INFO -                         name  ...                                           stations
+0  Boston, MA, United States  ...  KOWD,AV085,72509854704,KBED,0518W,KBOS,7250901...
+1  Boston, MA, United States  ...  KOWD,AV085,72509854704,KBED,0518W,KBOS,7250901...
+2  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+3  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+4  Boston, MA, United States  ...                         KOWD,AV085,KBED,0518W,KBOS
+
+[5 rows x 33 columns]
+[2025-01-05 10:57:55,928] {python.py:173} INFO - Done. Returned value was: None
+[2025-01-05 10:57:55,939] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=weather_data, task_id=extrai_dados, execution_date=20241223T000000, start_date=20250105T135755, end_date=20250105T135755
+[2025-01-05 10:57:55,984] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-01-05 10:57:56,011] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
