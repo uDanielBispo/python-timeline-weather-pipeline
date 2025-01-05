@@ -1,3 +1,4 @@
 .env
 ssh_git_*
 standalone_admin_password.txt
+/venv
