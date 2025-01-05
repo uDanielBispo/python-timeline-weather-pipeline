@@ -656,3 +656,87 @@ TypeError: unhashable type: 'dict'
 [2025-01-05 10:57:56,912] {logging_mixin.py:115} INFO - [2025-01-05 10:57:56,912] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-05 10:57:56,930] {logging_mixin.py:115} INFO - [2025-01-05 10:57:56,930] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
 [2025-01-05 10:57:56,954] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.511 seconds
+[2025-01-05 10:58:35,499] {processor.py:153} INFO - Started process (PID=5050) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:58:35,500] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 10:58:35,502] {logging_mixin.py:115} INFO - [2025-01-05 10:58:35,502] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:58:36,388] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:58:36,420] {logging_mixin.py:115} INFO - [2025-01-05 10:58:36,420] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 10:58:36,459] {logging_mixin.py:115} INFO - [2025-01-05 10:58:36,459] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 10:58:36,484] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.989 seconds
+[2025-01-05 10:59:07,871] {processor.py:153} INFO - Started process (PID=5285) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:07,872] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 10:59:07,872] {logging_mixin.py:115} INFO - [2025-01-05 10:59:07,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:08,408] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:08,439] {logging_mixin.py:115} INFO - [2025-01-05 10:59:08,438] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 10:59:08,469] {logging_mixin.py:115} INFO - [2025-01-05 10:59:08,468] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 10:59:08,491] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.624 seconds
+[2025-01-05 10:59:42,892] {processor.py:153} INFO - Started process (PID=5538) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:42,895] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 10:59:42,896] {logging_mixin.py:115} INFO - [2025-01-05 10:59:42,896] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:43,759] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 10:59:43,783] {logging_mixin.py:115} INFO - [2025-01-05 10:59:43,781] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 10:59:43,827] {logging_mixin.py:115} INFO - [2025-01-05 10:59:43,827] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 10:59:43,867] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.980 seconds
+[2025-01-05 11:00:22,767] {processor.py:153} INFO - Started process (PID=5811) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:00:22,771] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:00:22,771] {logging_mixin.py:115} INFO - [2025-01-05 11:00:22,771] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:00:23,719] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:00:23,762] {logging_mixin.py:115} INFO - [2025-01-05 11:00:23,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:00:23,810] {logging_mixin.py:115} INFO - [2025-01-05 11:00:23,810] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:00:23,860] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 1.100 seconds
+[2025-01-05 11:00:59,471] {processor.py:153} INFO - Started process (PID=6103) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:00:59,474] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:00:59,475] {logging_mixin.py:115} INFO - [2025-01-05 11:00:59,475] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:01:00,090] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:01:00,122] {logging_mixin.py:115} INFO - [2025-01-05 11:01:00,120] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:01:00,156] {logging_mixin.py:115} INFO - [2025-01-05 11:01:00,155] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:01:00,199] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.735 seconds
+[2025-01-05 11:01:36,463] {processor.py:153} INFO - Started process (PID=6590) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:01:36,467] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:01:36,468] {logging_mixin.py:115} INFO - [2025-01-05 11:01:36,468] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:01:37,436] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:01:37,479] {logging_mixin.py:115} INFO - [2025-01-05 11:01:37,479] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:01:37,531] {logging_mixin.py:115} INFO - [2025-01-05 11:01:37,531] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:01:37,567] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 1.109 seconds
+[2025-01-05 11:02:18,103] {processor.py:153} INFO - Started process (PID=6958) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:18,107] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:02:18,107] {logging_mixin.py:115} INFO - [2025-01-05 11:02:18,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:18,772] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:18,795] {logging_mixin.py:115} INFO - [2025-01-05 11:02:18,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:02:18,819] {logging_mixin.py:115} INFO - [2025-01-05 11:02:18,819] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:02:18,843] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.748 seconds
+[2025-01-05 11:02:51,299] {processor.py:153} INFO - Started process (PID=7134) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:51,303] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:02:51,303] {logging_mixin.py:115} INFO - [2025-01-05 11:02:51,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:52,194] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:02:52,216] {logging_mixin.py:115} INFO - [2025-01-05 11:02:52,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:02:52,243] {logging_mixin.py:115} INFO - [2025-01-05 11:02:52,243] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:02:52,278] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.984 seconds
+[2025-01-05 11:03:28,694] {processor.py:153} INFO - Started process (PID=7342) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:03:28,695] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:03:28,698] {logging_mixin.py:115} INFO - [2025-01-05 11:03:28,698] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:03:29,528] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:03:29,548] {logging_mixin.py:115} INFO - [2025-01-05 11:03:29,548] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:03:29,583] {logging_mixin.py:115} INFO - [2025-01-05 11:03:29,583] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:03:29,619] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 0.932 seconds
+[2025-01-05 11:04:14,031] {processor.py:153} INFO - Started process (PID=7585) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:14,035] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:04:14,043] {logging_mixin.py:115} INFO - [2025-01-05 11:04:14,043] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:15,206] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:15,239] {logging_mixin.py:115} INFO - [2025-01-05 11:04:15,238] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:04:15,302] {logging_mixin.py:115} INFO - [2025-01-05 11:04:15,302] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:04:15,363] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 1.337 seconds
+[2025-01-05 11:04:52,599] {processor.py:153} INFO - Started process (PID=7785) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:52,607] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:04:52,607] {logging_mixin.py:115} INFO - [2025-01-05 11:04:52,607] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:54,366] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:04:54,423] {logging_mixin.py:115} INFO - [2025-01-05 11:04:54,422] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:04:54,531] {logging_mixin.py:115} INFO - [2025-01-05 11:04:54,530] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:04:54,602] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 2.019 seconds
+[2025-01-05 11:05:49,446] {processor.py:153} INFO - Started process (PID=8047) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:05:49,459] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py for tasks to queue
+[2025-01-05 11:05:49,462] {logging_mixin.py:115} INFO - [2025-01-05 11:05:49,462] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:05:51,290] {processor.py:651} INFO - DAG(s) dict_keys(['weather_data']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py
+[2025-01-05 11:05:51,375] {logging_mixin.py:115} INFO - [2025-01-05 11:05:51,374] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:05:51,515] {logging_mixin.py:115} INFO - [2025-01-05 11:05:51,514] {dag.py:2927} INFO - Setting next_dagrun for weather_data to 2024-12-30T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:05:51,678] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/weather_data.py took 2.241 seconds

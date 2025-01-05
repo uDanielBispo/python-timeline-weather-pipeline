@@ -516,3 +516,87 @@
 [2025-01-05 10:58:15,984] {logging_mixin.py:115} INFO - [2025-01-05 10:58:15,984] {dag.py:2379} INFO - Sync 1 DAGs
 [2025-01-05 10:58:16,020] {logging_mixin.py:115} INFO - [2025-01-05 10:58:16,020] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
 [2025-01-05 10:58:16,050] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.123 seconds
+[2025-01-05 10:58:46,948] {processor.py:153} INFO - Started process (PID=5162) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:58:46,949] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 10:58:46,950] {logging_mixin.py:115} INFO - [2025-01-05 10:58:46,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:58:46,959] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:58:46,979] {logging_mixin.py:115} INFO - [2025-01-05 10:58:46,979] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 10:58:47,007] {logging_mixin.py:115} INFO - [2025-01-05 10:58:47,007] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 10:58:47,026] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.082 seconds
+[2025-01-05 10:59:24,832] {processor.py:153} INFO - Started process (PID=5425) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:59:24,835] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 10:59:24,836] {logging_mixin.py:115} INFO - [2025-01-05 10:59:24,836] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:59:24,851] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 10:59:24,879] {logging_mixin.py:115} INFO - [2025-01-05 10:59:24,879] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 10:59:24,912] {logging_mixin.py:115} INFO - [2025-01-05 10:59:24,912] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 10:59:24,935] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.108 seconds
+[2025-01-05 11:00:02,087] {processor.py:153} INFO - Started process (PID=5690) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:02,088] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:00:02,090] {logging_mixin.py:115} INFO - [2025-01-05 11:00:02,090] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:02,103] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:02,128] {logging_mixin.py:115} INFO - [2025-01-05 11:00:02,128] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:00:02,152] {logging_mixin.py:115} INFO - [2025-01-05 11:00:02,152] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:00:02,171] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.087 seconds
+[2025-01-05 11:00:34,211] {processor.py:153} INFO - Started process (PID=5928) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:34,212] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:00:34,214] {logging_mixin.py:115} INFO - [2025-01-05 11:00:34,214] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:34,230] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:00:34,260] {logging_mixin.py:115} INFO - [2025-01-05 11:00:34,260] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:00:34,294] {logging_mixin.py:115} INFO - [2025-01-05 11:00:34,294] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:00:34,314] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.108 seconds
+[2025-01-05 11:01:10,851] {processor.py:153} INFO - Started process (PID=6333) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:10,860] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:01:10,872] {logging_mixin.py:115} INFO - [2025-01-05 11:01:10,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:10,915] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:10,971] {logging_mixin.py:115} INFO - [2025-01-05 11:01:10,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:01:11,044] {logging_mixin.py:115} INFO - [2025-01-05 11:01:11,044] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:01:11,080] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.246 seconds
+[2025-01-05 11:01:51,511] {processor.py:153} INFO - Started process (PID=6753) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:51,514] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:01:51,515] {logging_mixin.py:115} INFO - [2025-01-05 11:01:51,515] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:51,542] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:01:51,572] {logging_mixin.py:115} INFO - [2025-01-05 11:01:51,572] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:01:51,604] {logging_mixin.py:115} INFO - [2025-01-05 11:01:51,604] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:01:51,632] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.132 seconds
+[2025-01-05 11:02:29,886] {processor.py:153} INFO - Started process (PID=7017) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:02:29,890] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:02:29,891] {logging_mixin.py:115} INFO - [2025-01-05 11:02:29,891] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:02:29,907] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:02:29,943] {logging_mixin.py:115} INFO - [2025-01-05 11:02:29,943] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:02:29,995] {logging_mixin.py:115} INFO - [2025-01-05 11:02:29,992] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:02:30,027] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.147 seconds
+[2025-01-05 11:03:02,682] {processor.py:153} INFO - Started process (PID=7195) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:02,687] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:03:02,690] {logging_mixin.py:115} INFO - [2025-01-05 11:03:02,690] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:02,715] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:02,755] {logging_mixin.py:115} INFO - [2025-01-05 11:03:02,755] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:03:02,799] {logging_mixin.py:115} INFO - [2025-01-05 11:03:02,799] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:03:02,827] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.160 seconds
+[2025-01-05 11:03:42,867] {processor.py:153} INFO - Started process (PID=7426) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:42,875] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:03:42,878] {logging_mixin.py:115} INFO - [2025-01-05 11:03:42,875] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:42,899] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:03:42,942] {logging_mixin.py:115} INFO - [2025-01-05 11:03:42,942] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:03:42,987] {logging_mixin.py:115} INFO - [2025-01-05 11:03:42,987] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:03:43,026] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.167 seconds
+[2025-01-05 11:04:16,599] {processor.py:153} INFO - Started process (PID=7612) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:16,606] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:04:16,607] {logging_mixin.py:115} INFO - [2025-01-05 11:04:16,607] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:16,635] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:16,687] {logging_mixin.py:115} INFO - [2025-01-05 11:04:16,686] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:04:16,743] {logging_mixin.py:115} INFO - [2025-01-05 11:04:16,743] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:04:16,795] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.204 seconds
+[2025-01-05 11:04:55,966] {processor.py:153} INFO - Started process (PID=7786) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:55,971] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:04:55,974] {logging_mixin.py:115} INFO - [2025-01-05 11:04:55,974] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:56,015] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:04:56,115] {logging_mixin.py:115} INFO - [2025-01-05 11:04:56,115] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:04:56,198] {logging_mixin.py:115} INFO - [2025-01-05 11:04:56,198] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:04:56,287] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.337 seconds
+[2025-01-05 11:05:53,111] {processor.py:153} INFO - Started process (PID=8072) to work on /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:05:53,114] {processor.py:641} INFO - Processing file /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py for tasks to queue
+[2025-01-05 11:05:53,122] {logging_mixin.py:115} INFO - [2025-01-05 11:05:53,119] {dagbag.py:507} INFO - Filling up the DagBag from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:05:53,170] {processor.py:651} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py
+[2025-01-05 11:05:53,291] {logging_mixin.py:115} INFO - [2025-01-05 11:05:53,290] {dag.py:2379} INFO - Sync 1 DAGs
+[2025-01-05 11:05:53,423] {logging_mixin.py:115} INFO - [2025-01-05 11:05:53,422] {dag.py:2927} INFO - Setting next_dagrun for my_first_dag to 2025-01-05T00:00:00+00:00, run_after=2025-01-06T00:00:00+00:00
+[2025-01-05 11:05:53,530] {processor.py:161} INFO - Processing /home/daniel/Documents/Alura/python_apache_airflow_pipeline/dags/my_first_dag.py took 0.428 seconds
